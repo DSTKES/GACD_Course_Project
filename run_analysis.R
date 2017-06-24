@@ -84,5 +84,5 @@ unzip("./data/Dataset.zip", exdir = "./data")
         colnames(summary_data)[4:76] <- paste0("Avg", colnames(summary_data[,4:76]))
         
 # Save off summary_data  -- rename file if comparing to submission
-        write.table(summary_data, file="./data/summary_data.txt")
+        write.table(summary_data, file="./data/summary_data.txt", row.name=FALSE)
         

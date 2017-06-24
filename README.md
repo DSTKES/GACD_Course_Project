@@ -7,7 +7,7 @@
 ## Repository Contents
 ----------------------
 
-* tidy data set named **summary_data.csv**
+* tidy data set named **summary_data.txt**
 * Data directory named 'data' which includes raw data sets
 * **CodeBook** file describing the data contents, summary variables
 * A README file
@@ -27,7 +27,7 @@ documentation along with interactive exploration. Little exploratory code is inc
 **run_analysis.R** file--only essential code required to produce the assigned
 data sets is included.
 
-### Approach to Creating **summary_data.csv**
+### Approach to Creating **summary_data.txt**
 --------------------------------------------
 The **run_analysis.R** script downloads the external data and assigns and/or modifies variable 
 names prior to merging the content from the appropriate subject, activity and features data sets.  This was done
@@ -43,10 +43,8 @@ only the feature fields pertaining to mean and standard deviation values.
 
 The **summary_data** data frame is the result of grouping the extracted data by the measured activity
 and the subject and taking the mean for the values of each measurement.  A prefix of 'Avg' was added
-to each measurement variable to clarify that the mean summarize was applied.
+to each measurement variable to clarify that the mean summarization function was applied.
 
-An option is included to save off **summary_data** as a csv file.  It's encouraged to rename the file
-if using for comparison with the existing file posted in the 'data' directory.   
 
 ### Data
 --------

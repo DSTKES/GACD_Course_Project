@@ -3,7 +3,7 @@
 ---------------------
 <br>
 
-## Dataset: **summary_data**
+## Dataset: **summary_data** (summary_data.txt)
 -----------
 #### Dimensions: *180 observations, 76 variables*
 The summary data are based on the measurement fields available in the extracted_data data set.  All

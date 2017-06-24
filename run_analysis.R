@@ -83,6 +83,6 @@ unzip("./data/Dataset.zip", exdir = "./data")
         # re-name summarized variables with `Avg` prefix
         colnames(summary_data)[4:76] <- paste0("Avg", colnames(summary_data[,4:76]))
         
-# Option to save off summary_data
-        write.csv(summary_data, file="./data/summary_data.csv")
+# Save off summary_data  -- rename file if comparing to submission
+        write.table(summary_data, file="./data/summary_data.txt")
         

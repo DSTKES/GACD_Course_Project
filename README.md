@@ -52,4 +52,4 @@ if using for comparison with the existing file posted in the 'data' directory.
 --------
 All data for this project are stored in the 'data' directory.  All original meta data extracted from the 
 Human Activity Recognition database are stored in the 'UCI HAR Dataset' subdirectory.  This includes
- the README and features text files.
+ the provided HAR README, activity_labels and features text files.
